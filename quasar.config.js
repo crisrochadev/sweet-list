@@ -172,6 +172,12 @@ module.exports = configure(function (ctx) {
             sizes: '512x512',
             type: 'image/png',
             purpose: 'maskable'
+          },
+          {
+            src: 'any_icon_x192.png',
+            sizes: '512x512',
+            type: 'image/png',
+            purpose: 'any'
           }
         ],
 
