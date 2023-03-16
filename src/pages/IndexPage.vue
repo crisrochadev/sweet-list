@@ -33,6 +33,7 @@
     <q-list separator
     >
 
+    <!-- milionarios -->
         <q-item v-for="row in rows" :key="row.key">
           <q-item-section avatar>
             <q-checkbox
