@@ -168,13 +168,13 @@ module.exports = configure(function (ctx) {
             type: 'image/png'
           },
           {
-            src: 'maskable_icon_x192.png',
+            src: 'icons/maskable_icon_x192.png',
             sizes: '512x512',
             type: 'image/png',
             purpose: 'maskable'
           },
           {
-            src: 'any_icon_x192.png',
+            src: 'icons/any_icon_x192.png',
             sizes: '512x512',
             type: 'image/png',
             purpose: 'any'
