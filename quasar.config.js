@@ -140,7 +140,7 @@ module.exports = configure(function (ctx) {
         orientation: 'portrait',
         background_color: '#093f6e',
         theme_color: '#093f6e',
-        categories: ['tools', 'productivity', 'finance'],
+        categories: ['tools', 'productivity', 'finance', 'utilities'],
         icons: [
           {
             src: 'icons/icon-128x128.png',
@@ -174,20 +174,26 @@ module.exports = configure(function (ctx) {
             purpose: 'maskable'
           }
         ],
+
         screenshots: [
           {
             src: 'screenshot/screenshot-1',
-            sizes: '650x1048',
-            type: 'image/webpngp'
+            sizes: '325x574',
+            type: 'image/png'
           },
           {
             src: 'screenshot/screenshot-2',
-            sizes: '650x1048',
+            sizes: '325x574',
             type: 'image/png'
           },
           {
             src: 'screenshot/screenshot-3',
-            sizes: '722 × 1180',
+            sizes: '325x574',
+            type: 'image/png'
+          },
+          {
+            src: 'screenshot/screenshot-4',
+            sizes: '325x574',
             type: 'image/png'
           }
         ]
